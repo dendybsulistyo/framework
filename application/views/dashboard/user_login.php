@@ -39,9 +39,9 @@
                                         <td>$row->email
                                         <td>$row->nama_level";
                                         if(isset($row->username)) {
-                                                echo $row->username;
+                                                echo "<td>".$row->username;
                                         } else {
-                                                echo "set akun";
+                                                echo "<td> <a href=#><strong>+</strong></a>";
                                         }
                                         
 
