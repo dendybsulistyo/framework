@@ -37,9 +37,13 @@
                                         <td>$no.
                                         <td>$row->nama
                                         <td>$row->email
-                                        <td>$row->nama_level
-                                        <td>$row->username
-                                        ";
+                                        <td>$row->nama_level";
+                                        if(isset($row->username)) {
+                                                echo $row->username;
+                                        } else {
+                                                echo "set akun";
+                                        }
+                                        
 
                                         $no=$no+1;           
                                         }                                    
