@@ -16,7 +16,7 @@
 
 
                 <!-- tabel  list user -->
-                <table class="table table-bordered table-hover">
+                <table class="table table-bordered table-hover ">
                                 <thead>
                                     <tr>
                                         <th class="col-xs-1">No</th>
